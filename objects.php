@@ -4,7 +4,7 @@ include_once('./_common.php');
 $object_name = $_GET['on']; // object name
 $name = $object_map[$object_name];
 $title=$name.' 목록';
-$t = $_GET[t];
+$t = $_GET['t'];
 if( $t ){
 	$title = "$t 정보";
 }

@@ -2,7 +2,7 @@
 include_once('./_common.php');
 
 $title='테이블목록';
-$t = $_GET[t];
+$t = $_GET['t'];
 if( $t ){
 	$title = "$t 테이블 정보";
 }

@@ -27,7 +27,7 @@ foreach($list as $row){
     $i++;
 	$col=''; if($i%2) $col="#e6ecf5";
 
-	$memo = $row[memo];
+	$memo = $row['memo'];
 	if( !$memo ) $memo = '.....';
 ?>
 <tr style="background-color:<?=$col?>">
